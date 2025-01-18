@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="author" content="Olavo">
+    <meta name="description" content="Bem-Vindo a The Litle Taco Shop! O restaurante de Tacos mais famosa no Brasil e no mundo!">
+    <title>TLS</title>
+    <link rel="icon" href="html_course-main/10_lesson_starter/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-Vindo a The Litle Taco Shop</h1>
+        <nav aria-label="primary-navigation" title="Navegação Principal">
+            <ul>
+                <li><a href="#about">Sobre a LTS</a></li>
+                <li><a href="#menu">Nosso Menu</a></li>
+                <li><a href="hours.html">Horários de Funcionamento</a></li>
+                <li><a href="contact.html">Contacte-nos</a></li>
+            </ul>
+            <!--Criar a nageção por ultimo!-->
+        </nav>
+        <figure>
+            <img src="html_course-main/10_lesson_starter/img/tacos_and_drink_400x267.png"  alt="Tacos e Bebidas" title="Tacos and Drink">
+            <p>Tacos e Bebidas</p>
+        </figure>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>Sobre a LTS</h2>
+            <p>LTS foi fundada em 2022. Nossa Loja foi contruida por amantes de Tacos 🌮 🌮 🌮. Esperamos que nossa loja adicione um lugar único e interessante em nossa região</p>
+            <aside title="Curiosidade sobre tacos">
+                <h3>Curiosidade sobre Tacos</h3>
+                <details>
+                    <summary>
+                        Quando o primeiro Taco chegou ao Brasil 🇧🇷?
+                    </summary>
+                    <p>
+                        Os tacos começaram a ganhar espaço no Brasil a partir das décadas de <mark>1980 e 1990</mark>, quando a culinária mexicana começou a ser introduzida por restaurantes especializados em comida internacional. Esses estabelecimentos eram geralmente locais independentes ou pequenas redes que adaptavam os pratos mexicanos ao paladar brasileiro.
+                    </p>
+                </details>
+            </aside>
+        </section>
+        <hr>
+        <table id="menu">
+            <h2>Nossos Menu</h2>
+            <caption>Nossos Tacos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Tacos</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">Crocante</th>
+                    <td>1</td>
+                    <td>$1,50</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$2,50</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$3,25</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">Macio</th>
+                    <td>1</td>
+                    <td>$2,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$3,50</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$4,50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td scope="row" colspan="3">Chips & Salada $2 </td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <a href="#">Voltar ao Topo</a>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+</body>
